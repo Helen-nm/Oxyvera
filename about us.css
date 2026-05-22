@@ -1,0 +1,276 @@
+p{
+    font-size: large;
+}
+.home-header {
+    background-color: rgb(0, 128, 128);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.home-logo {
+    width: 50%;
+    display: flex;
+}
+.home-logo img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.home-logo h2 {
+    color: white;
+    margin: 20px;
+}
+.home-nav {
+    width: 50%;
+    text-align: right;
+}
+.home-nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.home-nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+.home-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.home-nav ul li a:hover {
+    background-color: white;
+    color: rgb(0, 128, 128);            
+    transform: scale(1.1);  
+    padding: 10px;
+    border-radius: 5px;
+}
+.home-nav ul li a.active {
+    background-color: white;
+    color: rgb(0, 128, 128);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9fbfc;
+}
+
+
+.hero-section {
+    text-align: center;
+    padding: 40px 20px;
+    background: url(images/bg.jfif);
+    background-size: cover;
+    height: 450px;
+}
+
+.main-title {
+    font-family: 'Brush Script MT', cursive; 
+    color: #137df6;
+    font-size: 100px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.intro-text {
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section-banner {
+    background-color: #0097a7;
+    color: white;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 0 15px 15px 0;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+.member-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+    align-items: flex-start;
+}
+
+.member-card {
+    background-color: #26a69a;
+    border-radius: 30px;
+    padding: 20px;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+
+.member-card.offset {
+    margin-top: 50px;
+}
+
+.member-pic1 {
+    width: 100%;          
+    height: 250px;        
+    object-fit: cover;    
+    border-radius: 20px;  
+    margin-bottom: 15px;
+    display: block;
+}
+
+.member-pic2 {
+    width: 100%;          
+    height: 250px;        
+    object-fit: cover;    
+    border-radius: 20px;  
+    margin-bottom: 15px;
+    display: block;
+}
+
+.member-pic3 {
+    width: 100%;          
+    height: 250px;        
+    object-fit: cover;    
+    border-radius: 20px;  
+    margin-bottom: 15px;
+    display: block;
+}
+
+.member-pic4 {
+    width: 100%;          
+    height: 250px;        
+    object-fit: cover;    
+    border-radius: 20px;  
+    margin-bottom: 15px;
+    display: block;
+
+}
+
+.name-tag {
+    background-color: white;
+    color: #333;
+    padding: 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.role {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.info-section {
+    padding: 20px 5%;
+}
+
+.info-columns {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+    font-size: large;
+}
+
+.info-columns p {
+    flex: 1;
+}
+
+.info-content{
+
+    font-size: large;
+    margin: 0;
+}
+
+.cta-block {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.large-placeholder {
+    flex: 1;
+    height: 450px;
+    background-color: #26a69a;
+    border-radius: 30px;
+    border: 10px solid #26a69a;
+    background-image: url(images/Take\ Action.jfif);
+    background-size: cover;
+}
+
+.cta-text {
+    flex: 1;
+    padding-top: 10px;
+}
+
+.cta-text h3, .info-content h3 {
+    font-size: large;
+    font-weight: bold;
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    
+}
+/*footer*/
+.home-footer {
+    background-color: rgb(0,128,128);
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.home-container a {
+    color: white;
+    text-decoration: none;
+}
+.home-contact a:hover {
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.home-links a:hover {
+    color: wheat;
+    border-radius: 5px;
+    padding: 10px;
+}
+.home-social-icons a {
+    font-size: 25px;
+    margin: 7px;
+}
+.home-facebook i{
+    color: blue;
+}
+.home-twitter i{
+    color: rgb(98, 168, 196);
+}
+.home-youtube i{
+    color: red;
+}
+.home-instagram i{
+    color: rgb(192, 49, 192);
+}
+.home-social-icons a i:hover {
+    transform: scale(1.2);
+}
+.home-links ul li a {
+    text-decoration: none;
+}
+*{
+    margin: 0; padding: 0; box-sizing: border-box; 
+}
